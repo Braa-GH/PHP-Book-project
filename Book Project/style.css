@@ -1,0 +1,44 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: #eee;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eee;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li:hover{
+    background-color: #ccc;
+}
+
+body{
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+table{
+    border: white 1px solid;
+}
